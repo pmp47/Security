@@ -1,1 +1,1 @@
-import .security
+from security.security import *
