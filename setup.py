@@ -7,10 +7,11 @@ setup(name='Security',
 	author_email='phil@zeural.com',
 	license='MIT',
 	packages=['security'],
-	install_requires=['bcrypt>=3.1.4','git+https://github.com/blockstack/secret-sharing/tarball/master#egg=secret-sharing>=0.2.6','pycryptodome>=3.7.3'],
+	install_requires=['bcrypt>=3.1.4','secret-sharing>=0.2.6','pycryptodome>=3.7.3'],
 	zip_safe=False,
 	include_package_data=True,
 	python_requires='>=3.6',
+	dependency_links=['https://github.com/blockstack/secret-sharing/tarball/master#egg=secret-sharing==0.2.6'],
 
 	package_data={'': ['data/*.*']}
 )
