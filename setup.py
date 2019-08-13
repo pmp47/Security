@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(name='Security',
-	version='1.1.5',
+	version='1.1.7',
 	description='A simple security library wrapping various well known primitives.',
 	url='https://www.github.com/pmp47/Security',
 	author='pmp47',
